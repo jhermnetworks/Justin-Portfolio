@@ -1034,4 +1034,22 @@ footer p {
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
+}/* ABOUT PHOTO FINAL FIX */
+
+.about-image-placeholder {
+    width: 100%;
+    height: 420px;
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 22px;
+    background: none;
+}
+
+.about-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
 }
