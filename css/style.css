@@ -1098,3 +1098,34 @@ footer p {
     object-position: center;
     display: block;
 }
+
+
+/* RESUME PAGE IMAGE */
+.resume-hero {
+    background-image:
+        linear-gradient(rgba(20, 55, 50, 0.45), rgba(20, 55, 50, 0.70)),
+        url("../images/resume-garden.jpeg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* PORTFOLIO PAGE IMAGE */
+.portfolio-hero {
+    background-image:
+        linear-gradient(rgba(20, 55, 60, 0.40), rgba(20, 55, 60, 0.68)),
+        url("../images/portfolio-tahoe.jpeg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* CONTACT PAGE IMAGE */
+.contact-hero {
+    background-image:
+        linear-gradient(rgba(18, 55, 60, 0.42), rgba(18, 55, 60, 0.70)),
+        url("../images/about-tahoe.jpeg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
