@@ -1057,13 +1057,15 @@ footer p {
 /* ========================================
    FINAL PAGE PHOTOS
 ======================================== */
-/* Resume - Arches */.resume-hero {
+/* Resume - Arches */
+.resume-hero {
     background-image:
         linear-gradient(
             rgba(20, 55, 50, 0.45),
             rgba(20, 55, 50, 0.70)
         ),
-url("../images/resume-arches.jpeg") !important;
+        url("../images/resume-arches.jpeg") !important;
+
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
