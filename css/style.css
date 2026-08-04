@@ -1132,3 +1132,17 @@ url("../images/resume-arches.jpeg") !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
 }
+
+/* CONTACT HEADER PHOTO - FINAL */
+.contact-hero {
+    background-image:
+        linear-gradient(
+            rgba(19, 59, 68, 0.40),
+            rgba(19, 67, 67, 0.72)
+        ),
+        url("../images/contact-ocean.jpeg") !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
