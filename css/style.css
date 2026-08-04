@@ -652,17 +652,12 @@ footer p {
     text-align: center;
     color: white;
 
-    background:
+      background:
         linear-gradient(
             rgba(28, 65, 58, 0.45),
             rgba(24, 64, 59, 0.72)
         ),
-        linear-gradient(
-            135deg,
-            #a95534,
-            #4e8690,
-            #205046
-        );
+        url("images/YOUR-IMAGE-NAME.jpeg") center/cover no-repeat;
 }
 
 .about-hero-content {
