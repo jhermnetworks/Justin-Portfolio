@@ -1085,15 +1085,14 @@ footer p {
     background-repeat: no-repeat !important;
 }
 
-/* Contact - Lake Tahoe */
+/* Contact - Ocean */
 .contact-hero {
     background-image:
         linear-gradient(
             rgba(18, 55, 60, 0.42),
             rgba(18, 55, 60, 0.70)
         ),
-        url("../images/about-tahoe.jpeg") !important;
-
+url("../images/contact-ocean.jpeg") !important;
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
