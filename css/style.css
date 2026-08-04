@@ -653,11 +653,11 @@ footer p {
     color: white;
 
       background:
-        linear-gradient(
-            rgba(28, 65, 58, 0.45),
-            rgba(24, 64, 59, 0.72)
-        ),
-        url("images/YOUR-IMAGE-NAME.jpeg") center/cover no-repeat;
+    linear-gradient(
+        rgba(28, 65, 58, 0.45),
+        rgba(24, 64, 59, 0.72)
+    ),
+    url("images/4F8474B4-1C64-4EFF-9E3F-5DF0FB10E0B8.jpeg") center/cover no-repeat;
 }
 
 .about-hero-content {
