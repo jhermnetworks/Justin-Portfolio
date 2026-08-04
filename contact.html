@@ -102,8 +102,7 @@
 
                 <h2>Send a Message</h2>
 
-                <form action="mailto:jhermnetworks@gmail.com" method="post" enctype="text/plain">
-
+<form onsubmit="showMessage(event)">
                     <label for="name">Name</label>
                     <input
                         type="text"
@@ -143,6 +142,9 @@
 
                 </form>
 
+                <p id="form-status" style="display:none; margin-top:20px; color:#245145; font-weight:600;">
+    Thanks for reaching out! Please use the email link to send your message directly.
+</p>
             </div>
 
         </section>
@@ -167,7 +169,15 @@
         </p>
 
     </footer>
+<script>
+function showMessage(event) {
+    event.preventDefault();
 
+    document.getElementById("form-status").style.display = "block";
+
+    event.target.reset();
+}
+</script>
 </body>
 
 </html>
