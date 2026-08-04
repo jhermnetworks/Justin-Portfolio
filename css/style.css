@@ -1048,6 +1048,51 @@ footer p {
 
 .about-photo {
     width: 100%;
+   /* ========================================
+   FINAL PAGE PHOTOS
+======================================== */
+
+/* Resume - Garden of the Gods */
+.resume-hero {
+    background-image:
+        linear-gradient(
+            rgba(20, 55, 50, 0.45),
+            rgba(20, 55, 50, 0.70)
+        ),
+        url("../images/resume-garden.jpeg") !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Portfolio - Lake Tahoe */
+.portfolio-hero {
+    background-image:
+        linear-gradient(
+            rgba(20, 55, 60, 0.40),
+            rgba(20, 55, 60, 0.68)
+        ),
+        url("../images/portfolio-tahoe.jpeg") !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Contact - Lake Tahoe */
+.contact-hero {
+    background-image:
+        linear-gradient(
+            rgba(18, 55, 60, 0.42),
+            rgba(18, 55, 60, 0.70)
+        ),
+        url("../images/about-tahoe.jpeg") !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
     height: 100%;
     object-fit: cover;
     object-position: center;
