@@ -1108,10 +1108,12 @@ url("../images/contact-ocean.jpeg") !important;
 .resume-hero {
     background-image:
         linear-gradient(rgba(20, 55, 50, 0.45), rgba(20, 55, 50, 0.70)),
-        url("../images/resume-garden.jpeg") !important;
+        url("../images/resume-arches.jpeg") !important;
+
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
+}
 }
 
 /* PORTFOLIO PAGE IMAGE */
@@ -1126,14 +1128,15 @@ url("../images/contact-ocean.jpeg") !important;
 
 /* CONTACT PAGE IMAGE */
 .contact-hero {
+    .contact-hero {
     background-image:
         linear-gradient(rgba(18, 55, 60, 0.42), rgba(18, 55, 60, 0.70)),
-        url("../images/about-tahoe.jpeg") !important;
+        url("../images/contact-ocean.jpeg") !important;
+
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
 }
-
 /* CONTACT HEADER PHOTO - FINAL */
 .contact-hero {
     background-image:
